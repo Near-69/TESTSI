@@ -1,0 +1,99 @@
+body{
+    background-color: darkcyan;
+    padding: 0;
+    margin:0;
+}
+.navigation{
+    background-color: chocolate;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+
+   
+  
+   
+}
+/*----all text----*/
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   align-items: center;
+   height: 70px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   
+    
+}
+.navigation ul li  {
+    padding: 0 20px;
+    list-style: none;
+    
+    
+    
+    
+}
+/*-----button--------*/
+.navigation ul a{
+    text-decoration: none;
+    font-size: 30px;
+    color: blueviolet;
+    padding: 10px;
+    border:solid yellow;
+    border-radius: 5px;
+    background-color: pink;
+    transition: background-color 0.5s,opacity 0.2s; 
+    box-shadow: -10px 10px 18px black;
+    
+    
+    
+}
+label.START {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 50px;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+ 
+    
+}
+
+.navigation ul li a:hover{
+    cursor:pointer;
+    background-color: rgb(228, 89, 112);
+    opacity: 0.8;
+    color: rgb(54, 3, 54);
+    
+
+}
+.container{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 100px auto;
+
+}
+.container img{
+    object-fit: cover;
+    width: 10%;
+    height: 600px;
+    transition: ease-in-out 0.5s;
+    border: 2px solid bisque;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container img:hover{
+    width: 25%;
+}
+
